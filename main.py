@@ -1,6 +1,7 @@
 import mysql.connector ## Importação para conectar ao mysql
 import random ## Biblioteca para número randomico
 
+## Conexão com a tabela criada
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -8,6 +9,7 @@ mydb = mysql.connector.connect(
     database="db_python"
 )
 mycursor = mydb.cursor()
+
 def create_db():
     mydb = mysql.connector.connect(
         host="localhost",
@@ -17,8 +19,6 @@ def create_db():
     mycursor.execute("CREATE DATABASE db_python")
 
 def create_table():
-
-## Nome da base criada
     mycursor.execute("CREATE TABLE students ("
                      "id_aluno INTEGER primary key auto_increment NOT NULL, "
                      "matricula VARCHAR(20), "
