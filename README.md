@@ -1,4 +1,4 @@
-<h2>Esse código cria uma aplicação simples de cadastro de alunos em um banco de dados MySQL, permitindo a criação de base de dados, tabela, inserção, visualização, atualização e exclusão de alunos.</h2>
+<h2>Esse código Python cria uma aplicação simples de cadastro de alunos em um banco de dados MySQL, permitindo a criação de base de dados, tabela, inserção, visualização, atualização e exclusão de alunos.</h2>
 
 **Importação de Bibliotecas:**
 ```
