@@ -192,5 +192,6 @@ webbrowser.open(filename)
 
 
 
-
+## Custom Fields Data 
+<a href='https://docs.djangoproject.com/en/5.0/ref/forms/fields/'>Custom Fields</a>
 
